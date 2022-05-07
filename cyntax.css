@@ -55,7 +55,7 @@ span.cyntax_number
 	color:#B5CEA8;
 }
 
-span.cyntax_typedef
+span.cyntax_typedef, span.cyntax_struct
 {
 	color:#4EC9B0;
 }
