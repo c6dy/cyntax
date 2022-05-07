@@ -1,0 +1,66 @@
+pre
+{
+	background-color:#1E1E1E;
+	overflow-x:scroll;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+	padding:1em;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+pre::-webkit-scrollbar
+{
+	display: none;
+}
+
+/* Variables aren't highlighted - Default text color controls variable color */
+code
+{
+	color:#9CDCFE;
+	tab-size:4;
+}
+
+span.cyntax_special
+{
+	color: #D4D4D4;
+}
+
+span.cyntax_preprocessor, span.cyntax_keyword
+{
+	color:#C786BE;
+}
+
+span.cyntax_string, span.cyntax_include, span.cyntax_string > *
+{
+	color:#CE9178 !important;
+}
+
+span.cyntax_function
+{
+	color:#DCDCAA;
+}
+
+span.cyntax_comment, span.cyntax_comment > *, span.cyntax_comment > * > *
+{
+	color:#6A9955 !important;
+}
+
+span.cyntax_variable, span.cyntax_parameter
+{
+	color:#97DCFD;
+}
+
+span.cyntax_number
+{
+	color:#B5CEA8;
+}
+
+span.cyntax_typedef
+{
+	color:#4EC9B0;
+}
+
+span.cyntax_macro, span.cyntax_type
+{
+	color:#4FC1FF;
+}
