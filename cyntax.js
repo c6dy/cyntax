@@ -72,7 +72,7 @@ function cyntax_highlight(code)
 		},
 
 		{
-			regex 	: /(?<=struct )\w+(?= )/g,
+			regex 	: /(?<=\bstruct )\w+/g,
 			class 	: "cyntax_struct"
 		},
 
